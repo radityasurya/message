@@ -1,0 +1,7 @@
+version: '2'
+services:
+    message:
+        build: .
+        container_name: message
+        ports:
+            - "8080:80"
